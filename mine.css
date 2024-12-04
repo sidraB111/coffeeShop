@@ -1,0 +1,143 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+.navbar-brand{
+	font-weight: 900;
+	color: black;
+	font-family: Dancing Script;
+}
+.navbar-brand:hover{
+	color:black;
+}
+.nav-link{
+	margin-right:10px;
+	margin-left:10px;
+	text-transform:uppercase ;
+	font-family: 'Rubik' , sans-serif;
+	color:black;
+}
+.nav-link:hover{
+	color:black;
+}
+.search{
+	height:40px;
+	width:120px;
+	border-radius:60px;
+	outline:none;
+	margin-right: -30px;
+	font-family: 'Rubik' , sans-serif;
+	border:2px solid rgb(248,26,92);
+}
+.btn0{
+	height:40px;
+	width:75px;
+	border:none;
+	outline:none;
+	background:rgb(248,26,92);
+	color:white;
+	font-weight:700;
+	font-family: 'Rubik' , sans-serif;
+    border-radius: 60px;
+}
+.main{
+	background-image: url('./imgs/pic3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 110vh;
+	width: 100%;
+	background-position: 50% 70%;
+/*	padding-top: 40px;*/
+
+}
+.main h1{
+	font-size:4rem ;
+	font-weight:700;
+	
+}
+.btn1{
+	height:45px;
+	width:35%;
+	border:none;
+	outline:none;
+	background-color:rgb(248,26,92);
+	color:white;
+	font-weight: 700;
+	border-radius: 60px;
+	margin-left: 50px;
+}
+.btn1:hover{
+	background-color: rgb(223,15,77);
+	transition: 0.5s;
+}
+.new img {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+  display: block; 
+}
+
+.new h6 {
+  text-align: center; 
+  margin-top: 10px; 
+}
+h1{
+	font-weight:700;
+}
+.card:hover{
+	-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+	box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+	transition:0.5s;
+}
+.box{
+    padding-left: -40px; 
+    
+}
+.apple{
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(./imgs/or.jpg);
+	background-size: cover;
+	height:80vh;
+	width:100%;
+}
+.apple h1{
+	font-family: 'lobster' , cursive;
+	font-weight: bold;
+}
+.block{
+	margin-right: -35px;
+}
+.news{
+	background-color: black;
+	color:white;
+}
+.btn2{
+	height: 45px;
+	width:100px;
+	background-color: white;
+	margin-left: -10px;
+	border:2px solid white;
+	font-weight: 600;
+}
+.news input{
+	height:45px;
+	width:55%;
+	border:2px solid white;
+	outline:none;
+	background-color: black;
+	color:white;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.news::placeholder{
+	color:white;
+}
+.news p{
+	margin:0;
+}
+.fab{
+	cursor:pointer;
+	font-size: 2.5rem;
+	padding-right: 15px;
+}
